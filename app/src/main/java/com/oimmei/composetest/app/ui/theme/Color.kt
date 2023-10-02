@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.theme
+package com.oimmei.composetest.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

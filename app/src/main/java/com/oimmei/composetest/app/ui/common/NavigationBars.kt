@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.common
+package com.oimmei.composetest.app.ui.common
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
@@ -18,8 +18,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.oimmei.oipharma.app.R
-import com.oimmei.oipharma.app.ui.theme.AppTheme
+import com.oimmei.composetest.app.ui.theme.AppTheme
+import com.oimmei.composetest.app.R
 
 
 /**

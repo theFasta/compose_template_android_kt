@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.profile.viewmodel
+package com.oimmei.composetest.app.ui.profile.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

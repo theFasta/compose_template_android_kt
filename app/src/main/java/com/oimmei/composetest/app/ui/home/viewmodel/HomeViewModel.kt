@@ -1,8 +1,7 @@
-package com.oimmei.oipharma.app.ui.home.viewmodel
+package com.oimmei.composetest.app.ui.home.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewmodel.viewModelFactory
 
 
 /**

@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app
+package com.oimmei.composetest.app
 
 import org.junit.Test
 

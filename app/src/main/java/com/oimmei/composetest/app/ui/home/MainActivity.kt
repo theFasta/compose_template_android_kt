@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.home
+package com.oimmei.composetest.app.ui.home
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,12 +22,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
-import com.oimmei.oipharma.app.ui.common.BottomNavigationBar
-import com.oimmei.oipharma.app.ui.common.Constants
-import com.oimmei.oipharma.app.ui.home.viewmodel.HomeViewModel
-import com.oimmei.oipharma.app.ui.profile.ProfileScreen
-import com.oimmei.oipharma.app.ui.profile.viewmodel.ProfileViewModel
-import com.oimmei.oipharma.app.ui.theme.AppTheme
+import com.oimmei.composetest.app.ui.common.BottomNavigationBar
+import com.oimmei.composetest.app.ui.common.Constants
+import com.oimmei.composetest.app.ui.home.viewmodel.HomeViewModel
+import com.oimmei.composetest.app.ui.profile.ProfileScreen
+import com.oimmei.composetest.app.ui.profile.viewmodel.ProfileViewModel
+import com.oimmei.composetest.app.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     val TAG: String = MainActivity::class.java.simpleName

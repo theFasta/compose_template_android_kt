@@ -5,11 +5,11 @@ plugins {
 val nav_version by extra("2.7.2")
 
 android {
-    namespace = "com.oimmei.oipharma.app"
+    namespace = "com.oimmei.composetest.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.oimmei.oipharma.app"
+        applicationId = "com.oimmei.composetest.app"
         minSdk = 28
         targetSdk = 34
         versionCode = 1

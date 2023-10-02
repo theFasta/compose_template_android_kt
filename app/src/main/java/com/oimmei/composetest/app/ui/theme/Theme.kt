@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.theme
+package com.oimmei.composetest.app.ui.theme
 
 import android.app.Activity
 import android.os.Build

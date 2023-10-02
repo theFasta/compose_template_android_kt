@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.common
+package com.oimmei.composetest.app.ui.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect

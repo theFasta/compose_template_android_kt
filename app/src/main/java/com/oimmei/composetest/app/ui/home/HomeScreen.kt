@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.home
+package com.oimmei.composetest.app.ui.home
 
 import android.Manifest
 import android.location.Location
@@ -26,8 +26,8 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import com.google.accompanist.permissions.shouldShowRationale
-import com.oimmei.oipharma.app.ui.home.viewmodel.HomeViewModel
-import com.oimmei.oipharma.app.ui.theme.AppTheme
+import com.oimmei.composetest.app.ui.home.viewmodel.HomeViewModel
+import com.oimmei.composetest.app.ui.theme.AppTheme
 import com.oimmei.testanything.utils.LocationHelper
 
 

@@ -1,4 +1,4 @@
-package com.oimmei.oipharma.app.ui.theme
+package com.oimmei.composetest.app.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
