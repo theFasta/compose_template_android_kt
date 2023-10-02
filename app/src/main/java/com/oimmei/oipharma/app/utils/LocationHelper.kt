@@ -13,7 +13,6 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.core.content.ContextCompat
 import androidx.core.location.LocationManagerCompat
-import com.google.android.gms.location.GeofenceStatusCodes
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
@@ -335,51 +334,52 @@ class LocationHelper {
             )
         }
 
-        fun hasPermissions(): Boolean {
-            TODO("Not yet implemented")
-        }
+//        fun hasPermissions(context: Context): Boolean {
+//            return PermissionChecker.
+//        }
 
         fun geoCode(context: Context, location: Location, function: (String?) -> Unit) {
             if (Geocoder.isPresent()) {
                 Geocoder(context).run {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                         this.getFromLocation(location.latitude, location.longitude, 1) {
-
+                            function.invoke(it[0]?.getAddressLine(0))
                         }
                     } else {
-                        this.getFromLocation(location?.latitude, location?.longitude, 1) {
+                        val results: MutableList<Address>? =
+                            this.getFromLocation(location.latitude, location.longitude, 1)
+                        function.invoke(results?.get(0)?.getAddressLine(0))
                     }
-
                 }
             }
         }
-    }
 
-    fun getGeocodedAddress(location: Location, context: Context, callback: (Address?) -> Unit) {
-        if (Geocoder.isPresent()) {
-            val geocoder = Geocoder(context, Locale.getDefault())
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                geocoder.getFromLocation(
-                    location.latitude,
-                    location.longitude,
-                    1
-                ) {
-                    it.firstOrNull()?.run {
-                        callback.invoke(this)
+        fun getGeocodedAddress(location: Location, context: Context, callback: (Address?) -> Unit) {
+            if (Geocoder.isPresent()) {
+                val geocoder = Geocoder(context, Locale.getDefault())
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    geocoder.getFromLocation(
+                        location.latitude,
+                        location.longitude,
+                        1
+                    ) {
+                        it.firstOrNull()?.run {
+                            callback.invoke(this)
+                        }
+                    }
+                } else {
+                    geocoder.getFromLocation(
+                        location.latitude,
+                        location.longitude,
+                        1
+                    )?.run list@{
+                        this.firstOrNull()?.run {
+                            callback.invoke(this)
+                        }
                     }
                 }
-            } else {
-                geocoder.getFromLocation(
-                    location.latitude,
-                    location.longitude,
-                    1
-                )?.run list@{
-                    this.firstOrNull()?.run {
-                        callback.invoke(this)
-                    }
-                }
-            }
-        } else callback.invoke(null)
+            } else callback.invoke(null)
+        }
     }
 }
 

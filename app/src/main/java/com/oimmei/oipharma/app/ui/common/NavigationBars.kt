@@ -102,7 +102,7 @@ fun BottomNavigationBar(navController: NavHostController, items: List<BottomNavI
     AppTheme {
         BottomNavigation(
             elevation = 6.dp,
-            backgroundColor = MaterialTheme.colorScheme.surface,
+            backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
         ) {
 
 

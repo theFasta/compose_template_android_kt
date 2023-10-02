@@ -8,6 +8,7 @@ import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
@@ -39,11 +40,16 @@ import com.oimmei.testanything.utils.LocationHelper
 
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
-fun HomeScreen(activity: ComponentActivity, navController: NavController, viewModel: HomeViewModel) {
+fun HomeScreen(
+    activity: ComponentActivity,
+    navController: NavController,
+    viewModel: HomeViewModel
+) {
 
     val TAG: String = "HomeScreen"
     val factory = HomeViewModel.HomeViewModelFactory(aValue = false)
     val viewModel = ViewModelProvider(activity, factory)[HomeViewModel::class.java]
+    var address: String? by remember { mutableStateOf(null) }
 
     var location: Location? by remember { mutableStateOf(null) }
 
@@ -68,8 +74,8 @@ fun HomeScreen(activity: ComponentActivity, navController: NavController, viewMo
             } ?: run {
                 location = loc
                 loc?.run {
-                    LocationHelper.geoCode(activity, this) { address: String? ->
-
+                    LocationHelper.geoCode(activity, this) { anAddress: String? ->
+                        address = anAddress
                     }
                 }
             }
@@ -81,10 +87,10 @@ fun HomeScreen(activity: ComponentActivity, navController: NavController, viewMo
 
     })
     AppTheme {
-        Column(Modifier.fillMaxSize()) {
+        Column(Modifier.fillMaxSize().padding(all = 16.dp)) {
             if (locationPermissionState.status.isGranted) {
                 Text(
-                    location?.run { "%f,%f".format(this.latitude, this.longitude) }
+                    text = address
                         ?: "Permessi di localizzazione non concessi"
                 )
             } else Column {
