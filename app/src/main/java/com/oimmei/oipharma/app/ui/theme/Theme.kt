@@ -89,7 +89,7 @@ fun AppTheme(
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = when {
+    var colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
@@ -98,6 +98,7 @@ fun AppTheme(
         darkTheme -> DarkColors
         else -> LightColors
     }
+//    colorScheme = LightColors
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
