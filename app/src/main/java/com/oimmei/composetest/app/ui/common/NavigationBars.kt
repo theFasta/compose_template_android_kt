@@ -84,7 +84,7 @@ fun TopNavigationBar(navController: NavHostController, canPop: Boolean, title: S
         TopAppBar(
             title = {
                 //composable function for title
-                Text("Farmofilia")
+                Text("Compose Test")
             },
             colors = TopAppBarDefaults.topAppBarColors(
                 containerColor = bgColor,

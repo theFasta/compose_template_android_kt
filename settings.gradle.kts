@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Farmofilia"
+rootProject.name = "Compose Test"
 include(":app")
  

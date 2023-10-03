@@ -64,7 +64,7 @@ fun HomeScreen(
         rememberPermissionState(permission = Manifest.permission.ACCESS_FINE_LOCATION)
 
     LaunchedEffect(key1 = locationPermissionState, block = {
-        if (locationPermissionState.status.isGranted) LocationHelper.getUserLocation(activity) { loc, err ->
+        if (locationPermissionState.status.isGranted) LocationHelper.getCurrentLocation(activity) { loc, provider, err ->
             err?.run {
                 location = null
                 Toast.makeText(
@@ -75,7 +75,7 @@ fun HomeScreen(
                 location = loc
                 loc?.run {
                     LocationHelper.geoCode(activity, this) { anAddress: String? ->
-                        address = anAddress
+                        address = "%s (%s)".format(anAddress, provider)
                     }
                 }
             }
@@ -87,7 +87,10 @@ fun HomeScreen(
 
     })
     AppTheme {
-        Column(Modifier.fillMaxSize().padding(all = 16.dp)) {
+        Column(
+            Modifier
+                .fillMaxSize()
+                .padding(all = 16.dp)) {
             if (locationPermissionState.status.isGranted) {
                 Text(
                     text = address

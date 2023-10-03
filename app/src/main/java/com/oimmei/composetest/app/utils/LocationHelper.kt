@@ -45,7 +45,7 @@ class LocationHelper {
 
         @SuppressLint("MissingPermission")
         fun getUserLocation(
-            activity: ComponentActivity, callback: (Location?, Exception?) -> Unit
+            activity: ComponentActivity, callback: (Location?, String?, Exception?) -> Unit
         ) {
             try {
                 //                if (activity.checkPermissions()) {
@@ -56,11 +56,11 @@ class LocationHelper {
 
                 getFusedLocation(activity) { loc, err ->
                     err?.let {
-                        callback.invoke(null, err)
+                        callback.invoke(null, null, err)
                         it
                     } ?: run {
                         loc?.run {
-                            callback.invoke(loc, null)
+                            callback.invoke(loc, "fused", null)
                         } ?: run {
                             lm.allProviders.forEach all@{ aProvider: String ->
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
@@ -74,7 +74,7 @@ class LocationHelper {
                                              */
                                             it.run {
                                                 theLocation = it
-                                                callback.invoke(it, null)
+                                                callback.invoke(it, aProvider, null)
                                             }
                                         }
                                     }
@@ -94,7 +94,7 @@ class LocationHelper {
                                                      */
                                                     it.run {
                                                         theLocation = this
-                                                        callback.invoke(it, null)
+                                                        callback.invoke(it, aProvider, null)
                                                     }
                                                 }
                                             }, Looper.getMainLooper()
@@ -183,15 +183,15 @@ class LocationHelper {
                 //                    callback.invoke(null, Exception("Missing permissions"))
                 //                }
             } catch (e: Exception) {
-                callback.invoke(null, e)
+                callback.invoke(null, null, e)
             }
         }
 
         val executor: ExecutorService = Executors.newSingleThreadExecutor()
 
         @SuppressLint("MissingPermission")
-        private fun getCurrentLocation(
-            activity: ComponentActivity, callback: (Location?, Exception?) -> Unit
+        fun getCurrentLocation(
+            activity: ComponentActivity, callback: (Location?, String?, Exception?) -> Unit
         ) {
             val lm: LocationManager =
                 activity.getSystemService(Context.LOCATION_SERVICE) as LocationManager
@@ -217,7 +217,7 @@ class LocationHelper {
                             Log.d(TAG, "here")
                         },
                         { location: Location ->
-                            callback.invoke(location, null)
+                            callback.invoke(location, provider, null)
                         }
                     )
                 }
@@ -237,10 +237,9 @@ class LocationHelper {
                         provider,
                         null,
                         { runnable: Runnable ->
-                            Log.d(TAG, "here")
                         },
                         { location ->
-                            callback.invoke(location, null)
+                            callback.invoke(location, provider, null)
                         })
                 }
 
