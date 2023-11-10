@@ -1,14 +1,12 @@
-package com.oimmei.composetest.app.ui.home
+package com.oimmei.oipharma.app.ui.home
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -18,25 +16,22 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewmodel.CreationExtras
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
-import com.oimmei.composetest.app.ui.common.BottomNavigationBar
-import com.oimmei.composetest.app.ui.common.Constants
-import com.oimmei.composetest.app.ui.home.viewmodel.HomeViewModel
-import com.oimmei.composetest.app.ui.profile.ProfileScreen
-import com.oimmei.composetest.app.ui.profile.viewmodel.ProfileViewModel
-import com.oimmei.composetest.app.ui.theme.AppTheme
+import com.oimmei.oipharma.app.ui.common.BottomNavigationBar
+import com.oimmei.oipharma.app.ui.common.Constants
+import com.oimmei.oipharma.app.ui.profile.ProfileScreen
+import com.oimmei.oipharma.app.ui.profile.viewmodel.ProfileViewModel
+import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
 
 class MainActivity : ComponentActivity() {
     val TAG: String = MainActivity::class.java.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AppTheme {
+            OIPharmaTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -59,8 +54,8 @@ class MainActivity : ComponentActivity() {
     private fun Scaffold() {
         var title by remember { mutableStateOf("Home") }
         val navController = rememberNavController()
-        AppTheme {
-            Scaffold(
+        OIPharmaTheme {
+            androidx.compose.material3.Scaffold(
                 bottomBar = {
                     BottomNavigationBar(
                         navController = navController,
@@ -72,27 +67,16 @@ class MainActivity : ComponentActivity() {
                     NavHost(
                         navController = navController,
                         // set the start destination as home
-                        startDestination = "home",
+                        startDestination = "pharmaListHost",
 
                         // Set the padding provided by scaffold
                         modifier = Modifier.padding(paddingValues = paddingValues),
 
                         builder = {
                             // route : Home
-                            composable("home") {
+                            composable("pharmaListHost") {
                                 title = "Home"
-//                                val factory = HomeViewModel.HomeViewModelFactory(false)
-                                val viewModel = viewModel<HomeViewModel>(
-                                    viewModelStoreOwner = this@MainActivity,
-                                    key = "homeViewModel",
-                                    factory = HomeViewModel.HomeViewModelFactory(false),
-                                    extras = CreationExtras.Empty
-                                )
-                                HomeScreen(
-                                    activity = this@MainActivity,
-                                    navController = navController,
-                                    viewModel = viewModel
-                                )
+                                PharmaListHost(activity = this@MainActivity)
                             }
 
                             // route : profile

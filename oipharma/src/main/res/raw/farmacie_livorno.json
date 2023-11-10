@@ -1,0 +1,4036 @@
+[
+  {
+    "address": "Via Ricasoli, 1",
+    "name": "ACQUAVIVA",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5456708317194,
+    "longitude": 10.3125228731893,
+    "distance": 450,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Ricasoli, 1",
+    "name": "FARMACIA ACQUAVIVA SRL",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5456708317194,
+    "longitude": 10.3125228731893,
+    "distance": 345.34,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Ricasoli, 1",
+    "name": "ACQUAVIVA SNC DEI DOTTORI FRANCESCO E EMMA ACQUAVIVA",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5456708317194,
+    "longitude": 10.3125228731893,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Marradi 2",
+    "name": "ATTIAS",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Magenta, 59",
+    "name": "ALESSANDRI ROBERTA",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5468720626251,
+    "longitude": 10.3141119091626,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via G, Gelati, 10",
+    "name": "FARMACIA DEL LEVANTE S.N.C, DELLA DOTT.SSA ROBERTA ALESSANDRI E C.",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5468720626251,
+    "longitude": 10.3141119091626,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via G, Gelati, 10",
+    "name": "ALESSANDRI ROBERTA",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5468720626251,
+    "longitude": 10.3141119091626,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Grande, 8",
+    "name": "BARONCINI GABRIELE",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5501673422952,
+    "longitude": 10.3075502296711,
+    "phoneNumber": "+39 0586 953422",
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale della Liberta', 38",
+    "name": "SANT'AGOSTINO- DR.SSA GUAINAI",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5354905208493,
+    "longitude": 10.3191729614948,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via P, Pisana, 3",
+    "name": "FARMACIA SAN MATTEO DEL DOTTOR ANTONIO BERNARDINI & C, SAS",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5600886,
+    "longitude": 10.3267305,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Lepanto, 50/52",
+    "name": "FARMACIA ACCADEMIA  DI ENDURANCE SRL",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5305111576134,
+    "longitude": 10.3090274764536,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Lepanto, 50/52",
+    "name": "ACCADEMIA DEL DR, ALESSANDRO GIUNTI & C, SAS",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5305111576134,
+    "longitude": 10.3090274764536,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Grande, 140",
+    "name": "INTERNAZIONALE",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5501673422952,
+    "longitude": 10.3075502296711,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Borgo dei Cappuccini, 36",
+    "name": "FARMACIA DAL CANTO SAS DELLA DR.SSA COMPARINI CECILIA & C.",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "distance": 834.24,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Borgo dei Cappuccini, 71",
+    "name": "DAL CANTO SNC",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via primo Levi, 33",
+    "name": "FARMACIA DAL CANTO  S.A.S, DELLA DOTT.SSA CECILIA COMPARINI & C.",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "distance": 1455.34,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Borgo dei Cappuccini, 36",
+    "name": "DAL CANTO SNC",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Corso Giuseppe Mazzini, 301",
+    "name": "PAOLUCCI FRANCESCO",
+    "zip": 57126,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5426228405044,
+    "longitude": 10.3060953523279,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via di Salviano, 2",
+    "name": "DI COLLINE S.n.c, DEI  DR. BRUNO E ALESSANDRO FRANCESCHI",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5456067,
+    "longitude": 10.33420045,
+    "distance": 123,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza Damiano Chiesa, 30",
+    "name": "DI COLLINE S.n.c, DEI  DR, BRUNO E ALESSANDRO FRANCESCHI",
+    "zip": 57100,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5456067,
+    "longitude": 10.33420045,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale Giosue` Carducci, 197",
+    "name": "FARNETI SAS DEI DR.I ALBERTO E FRANCESCO FARNETI & C.",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.38387345,
+    "longitude": 10.43937755,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale della Liberta`, 12/14",
+    "name": "FERRARI DELLA DR.SSA BELOTTI FRANCESCA",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5354905208493,
+    "longitude": 10.3191729614948,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Giotto, 59",
+    "name": "FARMACIA DELLA SALUTE S.R.L.",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 42.7444403368681,
+    "longitude": 10.3786584213643,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Corso Amedeo, 239/a",
+    "name": "Farmacia Nuova Di De Libero Emmanuele",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5454040394916,
+    "longitude": 10.3142604437731,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Piero Donnini, 124",
+    "name": "Le Sorgenti- Dr.ssa Taglierani",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Piero Donnini, 124",
+    "name": "LE SORGENTI- DR.SSA TAGLIERANI",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza Grande, 20",
+    "name": "GROSSI SAS DOTT.SSA ROSALBA DONNICI",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5504986442575,
+    "longitude": 10.3088658415363,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza Cavour, 9",
+    "name": "ETHICA S.N.C, DEI DOTTORI VINCHESI MASSIMO E GIUSTI JESSICA",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5475472,
+    "longitude": 10.31102125,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Solferino, 1",
+    "name": "S, MARCO DEL DR.LAZZERINI MARCO",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 42.7453585824864,
+    "longitude": 10.3758094857211,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale Italia, 123",
+    "name": "S.JACOPO SNC DEL DR. RODOLOFO LOTTI & C",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.353438467556,
+    "longitude": 10.4621619705931,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Cairoli, 34",
+    "name": "CASTELLI - DR, MONTANO",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 42.8165254465281,
+    "longitude": 10.3237930822081,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Grande 62 -Ang, Via della Madonna, 1",
+    "name": "GALENO SNC DEL DR, MORELLI RICCARDO",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5530009,
+    "longitude": 10.3094793,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Grande, 61/63",
+    "name": "PELLINI CESARE",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5501673422952,
+    "longitude": 10.3075502296711,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Fratelli Bandiera, 4",
+    "name": "PICCHIONI SNC",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.3966395318219,
+    "longitude": 10.4414958641594,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Fratelli Bandiera, 4",
+    "name": "PICCHIONI MARIA",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.3966395318219,
+    "longitude": 10.4414958641594,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Toscana, 1",
+    "name": "ROSSI",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5397461899519,
+    "longitude": 10.3268155958887,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Inghilterra, 14/16",
+    "name": "FARMACIA GALLETTI SNC DI GIORGIO E FRANCESCA BIANCHI E C.",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5259278783584,
+    "longitude": 10.3357675760301,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Francesco Redi, 45",
+    "name": "CIANI RODOLFO",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5404049,
+    "longitude": 10.3211086,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Giuseppe Garibaldi, 63",
+    "name": "FARMACIA GARIBALDI S.A.S DEL DOTT. ALEXANDER ACQUAVIVA E C.",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5576393499183,
+    "longitude": 10.321028477781,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza dei Mille, 34",
+    "name": "CENTRALE - DR, SCALABRELLA",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5527686290041,
+    "longitude": 10.3156287775777,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via dei Pensieri, 3/a",
+    "name": "MISUL MEMO",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5189062,
+    "longitude": 10.31613255,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Haipong, 35",
+    "name": "COMUNALE N.1 SALVIANO",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza Saragat 8/9",
+    "name": "COMUNALE N.6 COREA",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Montebello, 21",
+    "name": "COMUNALE N.5 MONTEBELLO",
+    "zip": 57127,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5375210289343,
+    "longitude": 10.3083922203707,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Giovanni Marradi, 177",
+    "name": "COMUNALE N.4 MARRADI",
+    "zip": 57125,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5423959396446,
+    "longitude": 10.3147695968733,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Giuseppe Garibaldi, 341",
+    "name": "COMUNALE N.3 BASTIA",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5576393499183,
+    "longitude": 10.321028477781,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Feliks Bickonaki, 7",
+    "name": "COMUNALE N.2 LA ROSA",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale Vittorio Alfieri, 33",
+    "name": "COMUNALE N.9 ALFIERI",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5510317988784,
+    "longitude": 10.3273850860213,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Piazza Grande, 39",
+    "name": "Comunale N.8 Grande",
+    "zip": 57123,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.3960914078297,
+    "longitude": 10.4467156026968,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Alberto Montanari, 12/14",
+    "name": "COMUNALE N.7 LORENZINI",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5438994589595,
+    "longitude": 10.3328069962987,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Carlo Puini, 97",
+    "name": "Di Banditella Snc Delle Dr.sse Ilaria Cerbara E Alessandra Mingarelli",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5083491,
+    "longitude": 10.3215874,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Viale Carducci, 164/168",
+    "name": "Del Corallo Snc Di Guerrini Cinzia E Fiamingo Francesca Lidia",
+    "zip": 57100,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 43.5536637,
+    "longitude": 10.3322983,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Dell'Artigianato, 56",
+    "name": "Farmacia Del Picchianti S.n.c, Delle Dott.sse Giorgianna Pinna E Graziella Arca",
+    "zip": 57121,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 0,
+    "longitude": 0,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Delle Cateratte 86/88",
+    "name": "Farmacia Torretta Di Marsili Dott.ssa Laura E Cini Dott.ssa Michela S.n.c.",
+    "zip": 57122,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 0,
+    "longitude": 0,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via CAMPANIA, 104",
+    "name": "FARMACIA ORTO DEI SEMPLICI DI PATRIZIA LAZZARI",
+    "zip": 57124,
+    "city": "LIVORNO",
+    "locality": "-",
+    "latitude": 0,
+    "longitude": 0,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via dei Bagni, 30",
+    "name": "MODERNA DI ANTIGNANO DI BOSSIO FLAVIA E MARIANGELICA SNC",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "ANTIGNANO",
+    "latitude": 43.4974425451645,
+    "longitude": 10.3238095357898,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via degli Oleandri, 12/14",
+    "name": "FARMACIA DEGLI OLEANDRI SAS",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "ARDENZA",
+    "latitude": 42.7484634846023,
+    "longitude": 10.1200668032856,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via del Mare, 80",
+    "name": "FARMACIA CULLA DEL DOTT, F.A, FRULLANO",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "ARDENZA",
+    "latitude": 43.2462778307811,
+    "longitude": 10.5278184706057,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via Tina di Lorenzo, 1",
+    "name": "MILIARDI DEI DR.I FRANCESCO E ANGELA MILIARDI SNC",
+    "zip": 57015,
+    "city": "LIVORNO",
+    "locality": "QUERCIANELLA",
+    "latitude": 43.5224297957284,
+    "longitude": 10.3499070907131,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  },
+  {
+    "address": "Via delle Pianacce, 10",
+    "name": "MONTENERO SAS DI COSTANZA SALERNO",
+    "zip": 57128,
+    "city": "LIVORNO",
+    "locality": "MONTENERO",
+    "latitude": 43.4989367,
+    "longitude": 10.33009415,
+    "openingDays": [
+      {
+        "weekday": 1,
+        "morningOpeningHour": "0830",
+        "morningClosingHour": "1100",
+        "afternoonOpeningHour": "1545",
+        "afternoonClosingHour": "1920",
+        "allDay": false
+      },
+      {
+        "weekday": 2,
+        "morningOpeningHour": "0745",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 3,
+        "morningOpeningHour": "0910",
+        "morningClosingHour": "1240",
+        "afternoonOpeningHour": "1510",
+        "afternoonClosingHour": "2200",
+        "allDay": false
+      },
+      {
+        "weekday": 4,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 5,
+        "morningOpeningHour": "0630",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      },
+      {
+        "weekday": 6,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": true
+      },
+      {
+        "weekday": 7,
+        "morningOpeningHour": "0800",
+        "morningClosingHour": "1300",
+        "afternoonOpeningHour": "1500",
+        "afternoonClosingHour": "1900",
+        "allDay": false
+      }
+    ]
+  }
+]
+

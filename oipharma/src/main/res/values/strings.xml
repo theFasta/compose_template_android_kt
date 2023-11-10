@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">OiPharma</string>
+    <string name="indietro">Indietro</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_rules">Password must be at least 8 characters, with at least one capital letter, one lower case letter, a number and a special character like %s</string>
+    <string name="field_cannot_be_left_empty">Field cannot be left empty</string>
+    <string name="passwords_must_match">Passwords must match</string>
+    <string name="invalid_address">Invalid address</string>
+    <string name="addresses_dont_match">The addresses don\'t match</string>
+    <string name="phone_number_explanation">Phone number must have a "+" sign prefix, followed by the international code (i.e. +391234567890)</string>
+</resources>

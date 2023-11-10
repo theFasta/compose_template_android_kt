@@ -1,4 +1,4 @@
-package com.oimmei.composetest.app.ui.home
+package com.oimmei.oipharma.app.ui.home
 
 import android.Manifest
 import android.location.Location
@@ -33,16 +33,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import com.google.accompanist.permissions.shouldShowRationale
-import com.oimmei.composetest.app.ui.home.viewmodel.HomeViewModel
-import com.oimmei.composetest.app.ui.theme.AppTheme
-import com.oimmei.testanything.utils.LocationHelper
+import com.oimmei.oipharma.app.ui.home.viewmodel.HomeViewModel
+import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
+import com.oimmei.oipharma.app.utils.LocationHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -54,6 +55,15 @@ import kotlinx.coroutines.launch
  * Copyright Oimmei Digital Consulting Srl 2015-2023 - www.oimmei.com
  */
 
+@Preview(showBackground = true, group = "screen")
+@Composable
+fun HomeScreenPreview() {
+    HomeScreen(
+        activity = MainActivity(),
+        navController = rememberNavController()
+    )
+}
+
 @OptIn(
     ExperimentalPermissionsApi::class, ExperimentalMaterialApi::class,
     ExperimentalMaterial3Api::class
@@ -62,12 +72,11 @@ import kotlinx.coroutines.launch
 fun HomeScreen(
     activity: ComponentActivity,
     navController: NavController,
-    viewModel: HomeViewModel
 ) {
 
     val TAG: String = "HomeScreen"
     val factory = HomeViewModel.HomeViewModelFactory(aValue = false)
-    val viewModel = ViewModelProvider(activity, factory)[HomeViewModel::class.java]
+//    val viewModel = ViewModelProvider(activity, factory)[HomeViewModel::class.java]
     var address: String? by remember { mutableStateOf(null) }
 
     var location: Location? by remember { mutableStateOf(null) }
@@ -106,7 +115,7 @@ fun HomeScreen(
 
     })
     val coroutine = rememberCoroutineScope()
-    AppTheme {
+    OIPharmaTheme {
         val sheetState =
             androidx.compose.material.rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden)
         ModalBottomSheetLayout(
@@ -158,7 +167,8 @@ fun HomeScreen(
 fun BottomSheet(coroutineScope: CoroutineScope, sheetState: ModalBottomSheetState) {
     Column(Modifier.padding(16.dp)) {
         val modifier = Modifier.fillMaxWidth()
-        OutlinedTextField(value = "",
+        OutlinedTextField(
+            value = "",
             label = { Text("campo 1") },
             onValueChange = {},
             modifier = modifier,
@@ -169,7 +179,8 @@ fun BottomSheet(coroutineScope: CoroutineScope, sheetState: ModalBottomSheetStat
             )
         )
         Spacer(modifier = Modifier.size(8.dp))
-        OutlinedTextField(value = "",
+        OutlinedTextField(
+            value = "",
             label = { Text("campo 2") },
             onValueChange = {},
             modifier = modifier,
@@ -180,7 +191,8 @@ fun BottomSheet(coroutineScope: CoroutineScope, sheetState: ModalBottomSheetStat
             )
         )
         Spacer(modifier = Modifier.size(8.dp))
-        OutlinedTextField(value = "",
+        OutlinedTextField(
+            value = "",
             label = { Text("campo 3") },
             onValueChange = {},
             modifier = modifier,

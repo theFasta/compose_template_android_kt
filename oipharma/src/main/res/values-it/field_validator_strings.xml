@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_rules">La password deve essere lunga almeno 8 caratteri e contenere almeno una lettera maiuscola, una minuscola, un numero ed uno tra i seguenti caratteri speciali %s</string>
+    <string name="field_cannot_be_left_empty">Il campo non può essere lasciato vuoto</string>
+    <string name="passwords_must_match">Le password devono coincidere</string>
+    <string name="invalid_address">Indirizzo non valido</string>
+    <string name="addresses_dont_match">Gli indirizzi non corrispondono</string>
+    <string name="phone_number_explanation">Il numero di telefono deve essere preceduto da un segno "+", seguito dal codice di prefisso internazionale (es. +391234567890)</string>
+</resources>
