@@ -151,11 +151,9 @@ data class Pharmacy(
     }
 
     fun getLocation(): LatLng? {
-        return latitude?.let { lat ->
-            longitude?.let { lon ->
-                LatLng(lat, lon)
-            }
-        }
+        return if (hasCoordinates())
+            LatLng(latitude, longitude)
+        else null
     }
 
     fun getNext7Days(): List<OpeningDay> {

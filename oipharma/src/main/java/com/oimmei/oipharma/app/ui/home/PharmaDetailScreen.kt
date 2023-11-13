@@ -142,11 +142,17 @@ fun PharmaDetailScreen(
                     color = Color.Black,
                     fontWeight = FontWeight.Bold
                 )
-                viewModel.pharmacy!!.distanceFormatted?.run {
+                viewModel.pharmacy?.address?.run {
+                    Text(
+                        text = this,
+                        fontSize = TextUnit(20f, TextUnitType.Sp)
+                    )
+                }
+                viewModel.pharmacy?.distanceFormatted?.run {
                     Spacer(modifier = Modifier.size(16.dp))
                     Text(
                         text = "a $this da me",
-                        fontSize = TextUnit(20f, TextUnitType.Sp),
+                        fontSize = TextUnit(18f, TextUnitType.Sp),
                         color = MaterialTheme.colorScheme.outline
                     )
                     val status = viewModel.pharmacy!!.isNowOpen()

@@ -39,7 +39,7 @@ class PharmaListViewModel(val aValue: Boolean) : ViewModel() {
     private val handler = Handler(Looper.getMainLooper())
     private val searchRunnable = Runnable {
         val filtered =
-            pharmaciesCache.filter { it.name.lowercase().contains(uiState.value.queryString) }
+            pharmaciesCache.filter { it.name.lowercase().contains(uiState.value.queryString.lowercase()) }
         pharmacies.apply {
             clear()
             if (filtered.isNotEmpty())
