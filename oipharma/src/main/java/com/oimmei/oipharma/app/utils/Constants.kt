@@ -12,7 +12,8 @@ class Constants {
     companion object {
         enum class ROUTES_PHARMA_LIST(val route: String) {
             pharmaList("pharmaList"),
-            pharmaDetail("pharmaDetail/{json}")
+//            pharmaDetail("pharmaDetail/{json}")
+            pharmaDetail("pharmaDetail")
         }
     }
 }

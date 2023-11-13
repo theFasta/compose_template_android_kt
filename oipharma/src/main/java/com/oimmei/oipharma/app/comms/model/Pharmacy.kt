@@ -171,4 +171,7 @@ data class Pharmacy(
             mutableListOf<OpeningDay>().apply { addAll(starters); addAll(enders) }
         return results
     }
+
+    fun hasCoordinates(): Boolean =
+        latitude != null && longitude != null && latitude != 0.0 && longitude != 0.0
 }

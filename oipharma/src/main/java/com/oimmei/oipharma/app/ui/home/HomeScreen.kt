@@ -41,7 +41,7 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import com.google.accompanist.permissions.shouldShowRationale
-import com.oimmei.oipharma.app.ui.home.viewmodel.HomeViewModel
+import com.oimmei.oipharma.app.ui.home.viewmodel.PharmaListViewModel
 import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
 import com.oimmei.oipharma.app.utils.LocationHelper
 import kotlinx.coroutines.CoroutineScope
@@ -75,7 +75,7 @@ fun HomeScreen(
 ) {
 
     val TAG: String = "HomeScreen"
-    val factory = HomeViewModel.HomeViewModelFactory(aValue = false)
+    val factory = PharmaListViewModel.HomeViewModelFactory(aValue = false)
 //    val viewModel = ViewModelProvider(activity, factory)[HomeViewModel::class.java]
     var address: String? by remember { mutableStateOf(null) }
 

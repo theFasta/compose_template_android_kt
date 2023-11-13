@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.Intent
 import android.net.Uri
 import androidx.activity.ComponentActivity
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,12 +23,16 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.ArrowBack
 import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material.icons.rounded.Close
+import androidx.compose.material.icons.rounded.ExitToApp
 import androidx.compose.material.icons.rounded.Phone
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -45,6 +50,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
@@ -56,8 +62,10 @@ import com.google.maps.android.compose.MapProperties
 import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.MarkerState
 import com.google.maps.android.compose.rememberCameraPositionState
+import com.oimmei.oipharma.OIApplication
 import com.oimmei.oipharma.app.R
 import com.oimmei.oipharma.app.comms.model.Pharmacy
+import com.oimmei.oipharma.app.ui.home.viewmodel.PharmaDetailViewModel
 import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
 import java.util.Calendar
 
@@ -73,9 +81,9 @@ import java.util.Calendar
 @Composable
 fun PDScreenPreview() {
     OIPharmaTheme {
+        PharmaDetailViewModel.pharmacy = Pharmacy.fooInstance()
         PharmaDetailScreen(
             activity = MainActivity(),
-            pharmacy = Pharmacy.fooInstance(),
             navController = rememberNavController()
         )
     }
@@ -84,12 +92,15 @@ fun PDScreenPreview() {
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalPermissionsApi::class)
 @Composable
 fun PharmaDetailScreen(
-    activity: ComponentActivity, pharmacy: Pharmacy, navController: NavController
+    activity: ComponentActivity, navController: NavController
 ) {
     val (canPop, setCanPop) = remember { mutableStateOf(false) }
     navController.addOnDestinationChangedListener { controller, destination, arguments ->
         setCanPop(controller.previousBackStackEntry != null)
     }
+
+    val viewModel = PharmaDetailViewModel
+    assert(PharmaDetailViewModel.pharmacy != null)
 
     val permissionState = rememberPermissionState(permission = Manifest.permission.CALL_PHONE)
 
@@ -126,19 +137,19 @@ fun PharmaDetailScreen(
                     .verticalScroll(state = scrollstate, enabled = true)
             ) {
                 Text(
-                    text = pharmacy.name,
+                    text = viewModel.pharmacy!!.name,
                     fontSize = TextUnit(28f, TextUnitType.Sp),
                     color = Color.Black,
                     fontWeight = FontWeight.Bold
                 )
-                pharmacy.distanceFormatted?.run {
+                viewModel.pharmacy!!.distanceFormatted?.run {
                     Spacer(modifier = Modifier.size(16.dp))
                     Text(
                         text = "a $this da me",
                         fontSize = TextUnit(20f, TextUnitType.Sp),
                         color = MaterialTheme.colorScheme.outline
                     )
-                    val status = pharmacy.isNowOpen()
+                    val status = viewModel.pharmacy!!.isNowOpen()
                     if (status.first) {
                         Spacer(modifier = Modifier.size(16.dp))
                         Row(verticalAlignment = Alignment.Bottom) {
@@ -177,14 +188,14 @@ fun PharmaDetailScreen(
                     }
                 }
                 Spacer(modifier = Modifier.size(16.dp))
-                pharmacy.phoneNumber?.run {
+                viewModel.pharmacy?.phoneNumber?.run {
                     Button(
                         onClick = {
                             if (permissionState.status.isGranted) activity.startActivity(
                                 Intent(Intent.ACTION_CALL).setData(
                                     Uri.parse(
                                         "tel:${
-                                            pharmacy.phoneNumber.trim().replace(" ", "")
+                                            viewModel.pharmacy!!.phoneNumber.trim().replace(" ", "")
                                         }"
                                     )
                                 )
@@ -197,41 +208,96 @@ fun PharmaDetailScreen(
                         Row {
                             Icon(
                                 imageVector = Icons.Rounded.Phone,
-                                contentDescription = "Chiama il ${pharmacy.phoneNumber}",
+                                contentDescription = "Chiama il ${viewModel.pharmacy!!.phoneNumber}",
                                 tint = MaterialTheme.colorScheme.onTertiaryContainer
                             )
                             Spacer(modifier = Modifier.size(8.dp))
                             Text(
-                                text = "Chiama ${pharmacy.phoneNumber}",
+                                text = "Chiama ${viewModel.pharmacy!!.phoneNumber}",
                                 color = MaterialTheme.colorScheme.onTertiaryContainer,
                                 fontSize = TextUnit(20f, TextUnitType.Sp)
                             )
                         }
                     }
+                } ?: run {
+                    Text(
+                        text = "La farmacia non ha fornito il numero di telefono",
+                        fontSize = TextUnit(16f, TextUnitType.Sp),
+                        color = MaterialTheme.colorScheme.error
+                    )
                 }
 
                 /* MAP */
-                val pharmaPosition = pharmacy.getLocation()
+                val pharmaPosition = viewModel.pharmacy!!.getLocation()
                 pharmaPosition?.run {
                     val cameraPositionState = rememberCameraPositionState {
-                        position = CameraPosition.fromLatLngZoom(pharmaPosition, 18f)
+                        position = CameraPosition.fromLatLngZoom(pharmaPosition, 16.8f)
                     }
                     Spacer(modifier = Modifier.size(16.dp))
 
-                    GoogleMap(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .height(380.dp),
-                        cameraPositionState = cameraPositionState,
-                        properties = MapProperties(
-                            isMyLocationEnabled = true, isTrafficEnabled = true
-                        )
+
+                    Card(
+                        shape = CardDefaults.outlinedShape,
+                        border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary)
                     ) {
-                        Marker(
-                            state = MarkerState(position = this@run),
-                            title = pharmacy.name,
-                            snippet = pharmacy.address
-                        )
+                        GoogleMap(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .height(380.dp),
+                            cameraPositionState = cameraPositionState,
+                            properties = MapProperties(
+                                isMyLocationEnabled = true, isTrafficEnabled = true,
+                                isBuildingEnabled = true,
+                            )
+                        ) {
+                            //                        val bitmapDescriptor =
+                            //                            BitmapDescriptorFactory.fromResource(R.drawable.baseline_pharmacy)
+                            Marker(
+                                state = MarkerState(position = this@run),
+                                title = viewModel.pharmacy!!.name,
+                                snippet = viewModel.pharmacy!!.address,
+                                tag = viewModel.pharmacy,
+                                //                            icon = bitmapDescriptor,
+                                onClick = { marker ->
+                                    val pharmacy = marker.tag as Pharmacy
+                                    if (pharmacy.hasCoordinates()) {
+                                        val gmmIntentUri: Uri =
+                                            Uri.parse("geo:${pharmacy.latitude},${pharmacy.longitude}?z=16")
+                                        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+                                        mapIntent.setPackage("com.google.android.apps.maps").flags =
+                                            Intent.FLAG_ACTIVITY_NEW_TASK
+                                        startActivity(OIApplication.context, mapIntent, null)
+                                    }
+                                    false
+                                }
+                            )
+                        }
+                    }
+                }
+                if (viewModel.pharmacy!!.hasCoordinates()) {
+                    Spacer(
+                        modifier = Modifier
+                            .size(16.dp)
+                            .fillMaxWidth()
+                    )
+                    OutlinedButton(onClick = {
+                        val gmmIntentUri: Uri =
+                            Uri.parse("geo:0,0?q=${viewModel.pharmacy!!.name}@${viewModel.pharmacy!!.latitude},${viewModel.pharmacy!!.longitude}")
+                        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+                        mapIntent.setPackage("com.google.android.apps.maps").flags =
+                            Intent.FLAG_ACTIVITY_NEW_TASK
+                        startActivity(OIApplication.context, mapIntent, null)
+                    }, modifier = Modifier.fillMaxWidth()) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                imageVector = Icons.Rounded.ExitToApp,
+                                contentDescription = "Portami li",
+                                tint = MaterialTheme.colorScheme.primary
+                            )
+                            Spacer(modifier = Modifier.size(8.dp))
+                            Text(text = "Portami li", fontWeight = FontWeight.Bold)
+
+                        }
                     }
                 }
 
@@ -274,7 +340,7 @@ fun PharmaDetailScreen(
 
                 val cal = Calendar.getInstance()
 
-                val next7Days = pharmacy.getNext7Days()
+                val next7Days = viewModel.pharmacy!!.getNext7Days()
                 next7Days.forEach { day ->
                     Row(
                         modifier = Modifier
@@ -324,6 +390,8 @@ fun PharmaDetailScreen(
 
                     cal.roll(Calendar.DAY_OF_MONTH, true)
                 }
+
+                /* Consulenze */
 
                 Spacer(modifier = Modifier.size(16.dp))
                 Divider(modifier = Modifier.fillMaxWidth())

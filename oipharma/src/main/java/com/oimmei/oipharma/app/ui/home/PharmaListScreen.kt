@@ -1,8 +1,12 @@
 package com.oimmei.oipharma.app.ui.home
 
 import android.Manifest
+import android.content.Context
+import android.view.inputmethod.InputMethodManager
+import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -14,16 +18,23 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Clear
+import androidx.compose.material.icons.rounded.Search
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
@@ -34,6 +45,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
@@ -44,11 +58,11 @@ import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
-import com.google.gson.Gson
 import com.oimmei.oipharma.app.R
 import com.oimmei.oipharma.app.comms.model.Pharmacy
 import com.oimmei.oipharma.app.ui.common.OnLifecycleEvent
-import com.oimmei.oipharma.app.ui.home.viewmodel.HomeViewModel
+import com.oimmei.oipharma.app.ui.home.viewmodel.PharmaDetailViewModel
+import com.oimmei.oipharma.app.ui.home.viewmodel.PharmaListViewModel
 import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
 import com.oimmei.oipharma.app.utils.Constants
 import java.text.NumberFormat
@@ -76,13 +90,15 @@ fun HomeFeedScreenPreview() {
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
 fun PharmaListScreen(activity: MainActivity, navController: NavHostController) {
-    val factory = HomeViewModel.HomeViewModelFactory(false)
-    val viewModel = factory.create(HomeViewModel::class.java)
+    val factory = PharmaListViewModel.HomeViewModelFactory(false)
+    val viewModel = remember { factory.create(PharmaListViewModel::class.java) }
     var tabIndex by remember { mutableIntStateOf(0) }
     val tabs = arrayOf("Farmacie", "Servizi")
     val pharmacies = remember { viewModel.pharmacies }
     val services = remember { viewModel.services }
     val lazyListState = rememberLazyListState()
+
+    val uistate = viewModel.uiState.collectAsState()
 
 //    val currentLocation = viewModel.currentLocation.collectAsState()
 
@@ -168,6 +184,46 @@ fun PharmaListScreen(activity: MainActivity, navController: NavHostController) {
             Spacer(modifier = Modifier.size(16.dp))
             when (tabIndex) {
                 0 -> {
+                    OutlinedTextField(
+                        value = uistate.value.queryString,
+                        onValueChange = viewModel::setQueryString,
+                        modifier = Modifier.fillMaxWidth(),
+                        label = { Text("Ricerca farmacia") },
+                        leadingIcon = {
+                            Image(
+                                imageVector = Icons.Rounded.Search,
+                                contentDescription = "ricerca farmacia"
+                            )
+                        },
+                        keyboardOptions = KeyboardOptions(
+                            keyboardType = KeyboardType.Text,
+                            capitalization = KeyboardCapitalization.Sentences,
+                            imeAction = ImeAction.Done,
+                        ),
+                        keyboardActions = KeyboardActions(
+                            onDone = {
+                                (activity
+                                    .getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager)
+                                    .hideSoftInputFromWindow(
+                                        activity.window.decorView.windowToken,
+                                        0
+                                    )
+                            }
+                        ),
+                        trailingIcon = {
+                            if (uistate.value.isQueryPresent()) {
+                                Image(
+                                    imageVector = Icons.Rounded.Clear,
+                                    contentDescription = "Cancella testo",
+                                    modifier = Modifier.clickable {
+                                        viewModel.setQueryString("")
+                                    }
+                                )
+                            }
+                        }
+
+                    )
+                    Spacer(modifier = Modifier.size(16.dp))
                     LazyColumn(
                         state = lazyListState,
                         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -179,13 +235,24 @@ fun PharmaListScreen(activity: MainActivity, navController: NavHostController) {
                                 activity = activity,
                                 item = pharmacies[position]
                             ) {
-                                val json = Gson().toJson(it)
-                                navController.navigate(
-                                    "%s/%s".format(
-                                        Constants.Companion.ROUTES_PHARMA_LIST.pharmaDetail.name,
-                                        json
-                                    )
-                                )
+//                                val json = Gson().toJson(it)
+                                PharmaDetailViewModel.pharmacy = it
+                                try {
+                                    navController.navigate(Constants.Companion.ROUTES_PHARMA_LIST.pharmaDetail.route)
+//                                    navController.navigate(
+//                                        "%s/%s".format(
+//                                            Constants.Companion.ROUTES_PHARMA_LIST.pharmaDetail.name,
+//                                            json
+//                                        )
+//                                    )
+                                } catch (ex: Exception) {
+                                    ex.printStackTrace()
+                                    Toast.makeText(
+                                        activity,
+                                        "Impossibile visualizzare i dati della farmacia in questo momento",
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                }
                             }
                         }
                     }

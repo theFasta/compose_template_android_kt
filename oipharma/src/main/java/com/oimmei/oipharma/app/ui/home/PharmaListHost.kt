@@ -11,6 +11,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.gson.Gson
 import com.oimmei.oipharma.app.comms.model.Pharmacy
+import com.oimmei.oipharma.app.ui.home.viewmodel.PharmaDetailViewModel
 import com.oimmei.oipharma.app.ui.theme.OIPharmaTheme
 import com.oimmei.oipharma.app.utils.Constants
 
@@ -46,16 +47,15 @@ fun PharmaListHost(activity: MainActivity) {
                 }
                 composable(
                     Constants.Companion.ROUTES_PHARMA_LIST.pharmaDetail.route,
-                    arguments = listOf(navArgument("json") { type = NavType.StringType })
+//                    arguments = listOf(navArgument("json") { type = NavType.StringType })
                 )
                 { backStackEntry ->
-                    val argsJSON = backStackEntry.arguments?.getString("json")
-                    val pharmacy = Gson().fromJson(argsJSON, Pharmacy::class.java)
+//                    val argsJSON = backStackEntry.arguments?.getString("json")
+//                    val pharmacy = Gson().fromJson(argsJSON, Pharmacy::class.java)
 //                    title = .listName?: stringResource(R.string.dettaglio_lista)
                     title.value = "Farmacia"
                     PharmaDetailScreen(
                         activity = activity,
-                        pharmacy = pharmacy,
                         navController = navController
                     )
                 }
