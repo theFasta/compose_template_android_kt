@@ -14,5 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "OiPharma"
-include(":app")
 include(":oipharma")
